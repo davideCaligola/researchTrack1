@@ -41,7 +41,7 @@ The robot is positioned in an area with golden and silver token. The goal is to 
 --------------------
 The problem has been solved based on the following state machine:
 
-<img src="./assets/completeStateMachine.svg" width="600" alt="complete state machine"/>
+<img src="./assets/completeStateMachine.svg" width="800" alt="complete state machine"/>
 
 <font size="2"> Complete program state machine </font>
 
@@ -54,14 +54,14 @@ In case of closing to a silver token, the robot should be close enough to grab t
 In case of closing to a golden token, the robot should keep a greater distance from the target, considering that it is helding a silver token in front.  
 The movement of the robot toward a token within a defined distance and orientation threshold is implemented according to the following flow diagram:
 
-<img src="./assets/goToToken.svg" width="300" alt="go to token"/>
+<img src="./assets/goToToken.svg" width="400" alt="go to token"/>
 
 <font size="2"> Drive to token function diagram </font>
 
 Drive to token is a wrapper function around the funtion ```drive_to_closest_token_with_type```, parameterized with respect to token type, list of token already handled, linear distance threshold, orientation distance and speed.  
 It is implemented according to the following flow diagram
 
-<img src="./assets/driveToClosestTokenPerType.svg" width="450" alt="drive to closest token with type"/>
+<img src="./assets/driveToClosestTokenPerType.svg" width="600" alt="drive to closest token with type"/>
 
 <font size="2"> Drive to closest token diagram</font>
 
@@ -102,8 +102,7 @@ gold_token_done.append(code_gold)
 After appending the golden token code to the list, it directly moves to the state ```GO_TO_SILVER```.
 
 ## Helper functions
----------------------
-### `rotate`
+### rotate
 Rotates the robot around its axis.    
 Inputs:
 
@@ -160,7 +159,6 @@ Inputs:
 retreat_from_token uses the function `drive` with `-speed` for `kd / speed` time, where `kd=20 ` has been heuristically found.
 
 ## Known limitations
-----------------------
 * Currently, only in few actions there is explicitly taken care about the relation with the sampling time `T`, set to 0.05s.  
   Reducing or increasing the sampling time could bring the system to instabilities.
 * There is not any obstacle avoidance algorithm. This could lead on dragging tokens around even if not grabbed, and bringing the sistem in some corner situation that are anyway usually solved.  
@@ -173,7 +171,6 @@ retreat_from_token uses the function `drive` with `-speed` for `kd / speed` time
 
 
 ## Side notes
---------------
 ### Orientation error compensation
 For correcting the orientation error, the robot turns with the functions `turnLeft` or `turnRight`.  
 Heuristically, it has been found that a turn (left or right) at speed 1 for a time of 1s turns the robot of about 3 degrees.  
