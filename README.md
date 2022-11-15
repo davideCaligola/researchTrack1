@@ -2,7 +2,7 @@ Exercise on Python Robotics Simulator
 =====================================
 This exercise is part of Research Track I course and its aim is to implement a simple program in Python to sort in a given order a group of tokens.  
 The exercise is based on portable robot simulator developed by [Student Robotics](https://studentrobotics.org). Informations about the environment, how to set it up and references for the robot API can be found [here](./robot-sim/README.md).  
-Following a description of the problem and the proposed solution are presented and explained.
+A description of the problem and the proposed solution are presented and explained in the following sections.
 
 Installing and running
 ----------------------

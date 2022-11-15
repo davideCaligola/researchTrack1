@@ -82,7 +82,7 @@
    <g id="id3">
     <rect class="BoundingBox" stroke="none" fill="none" x="681" y="1987" width="28261" height="15243"/>
     <path fill="rgb(255,255,255)" stroke="none" d="M 14811,17228 L 682,17228 682,1988 28940,1988 28940,17228 14811,17228 Z"/>
-    <path fill="none" stroke="rgb(52,101,164)" d="M 14811,17228 L 682,17228 682,1988 28940,1988 28940,17228 14811,17228 Z"/>
+    <path fill="none" stroke="rgb(255,255,255)" d="M 14811,17228 L 682,17228 682,1988 28940,1988 28940,17228 14811,17228 Z"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.CustomShape">
@@ -184,7 +184,6 @@
     <rect class="BoundingBox" stroke="none" fill="none" x="5762" y="6759" width="1430" height="3644"/>
     <path fill="none" stroke="rgb(52,101,164)" d="M 5763,10401 L 6477,10401 6477,6909 6911,6909"/>
     <path fill="rgb(52,101,164)" stroke="none" d="M 6891,6759 L 7191,6909 6891,7059 6891,6759 Z"/>
-    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="5960" y="9430"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
@@ -199,7 +198,6 @@
     <rect class="BoundingBox" stroke="none" fill="none" x="10842" y="6760" width="1271" height="4914"/>
     <path fill="none" stroke="rgb(52,101,164)" d="M 10843,11672 L 11478,11672 11478,6910 11832,6910"/>
     <path fill="rgb(52,101,164)" stroke="none" d="M 11812,6760 L 12112,6910 11812,7060 11812,6760 Z"/>
-    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="10961" y="11412"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
@@ -250,10 +248,9 @@
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
    <g id="id25">
-    <rect class="BoundingBox" stroke="none" fill="none" x="19704" y="6759" width="1002" height="3645"/>
+    <rect class="BoundingBox" stroke="none" fill="none" x="19731" y="6759" width="955" height="3645"/>
     <path fill="none" stroke="rgb(52,101,164)" d="M 19732,10402 L 20234,10402 20183,6909 20405,6909"/>
     <path fill="rgb(52,101,164)" stroke="none" d="M 20385,6759 L 20685,6909 20385,7059 20385,6759 Z"/>
-    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="19692" y="10142"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
@@ -268,7 +265,7 @@
     <rect class="BoundingBox" stroke="none" fill="none" x="13550" y="12781" width="8566" height="2860"/>
     <path fill="none" stroke="rgb(52,101,164)" d="M 22114,12782 L 22114,14687 13700,14687 13700,15360"/>
     <path fill="rgb(52,101,164)" stroke="none" d="M 13850,15340 L 13700,15640 13550,15340 13850,15340 Z"/>
-    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="21056" y="13483"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">No</tspan></tspan></tspan></text>
+    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="21055" y="13483"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">No</tspan></tspan></tspan></text>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
@@ -276,7 +273,7 @@
     <rect class="BoundingBox" stroke="none" fill="none" x="13550" y="11512" width="3485" height="4129"/>
     <path fill="none" stroke="rgb(52,101,164)" d="M 17033,11513 L 17033,14053 13700,14053 13700,15360"/>
     <path fill="rgb(52,101,164)" stroke="none" d="M 13850,15340 L 13700,15640 13550,15340 13850,15340 Z"/>
-    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="15975" y="12214"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">No</tspan></tspan></tspan></text>
+    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="15974" y="12214"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">No</tspan></tspan></tspan></text>
    </g>
   </g>
   <g class="com.sun.star.drawing.ConnectorShape">
@@ -291,7 +288,30 @@
     <rect class="BoundingBox" stroke="none" fill="none" x="24494" y="6760" width="1333" height="4913"/>
     <path fill="none" stroke="rgb(52,101,164)" d="M 24495,11671 L 25161,11671 25161,6910 25546,6910"/>
     <path fill="rgb(52,101,164)" stroke="none" d="M 25526,6760 L 25826,6910 25526,7060 25526,6760 Z"/>
-    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="24644" y="11411"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
+   </g>
+  </g>
+  <g class="TextShape">
+   <g id="id31">
+    <rect class="BoundingBox" stroke="none" fill="none" x="25130" y="10868" width="1588" height="963"/>
+    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="25380" y="11569"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
+   </g>
+  </g>
+  <g class="TextShape">
+   <g id="id32">
+    <rect class="BoundingBox" stroke="none" fill="none" x="18780" y="8963" width="1588" height="963"/>
+    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="19030" y="9664"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
+   </g>
+  </g>
+  <g class="TextShape">
+   <g id="id33">
+    <rect class="BoundingBox" stroke="none" fill="none" x="9890" y="9916" width="1588" height="963"/>
+    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="10140" y="10617"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
+   </g>
+  </g>
+  <g class="TextShape">
+   <g id="id34">
+    <rect class="BoundingBox" stroke="none" fill="none" x="4810" y="8973" width="1588" height="963"/>
+    <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="5060" y="9674"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Yes</tspan></tspan></tspan></text>
    </g>
   </g>
  </g>
