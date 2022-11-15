@@ -6,19 +6,20 @@ Following a description of the problem and the proposed solution are presented a
 
 Installing and running
 ----------------------
-Clone the repository
+Clone the branch assignment1 from the repository
 
 ```
->> git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+>> git clone -b assignment1 https://github.com/davideCaligola/researchTrack1.git
 ```
 
-Go to the robot-sim and launch the assignment file:
+Move into researchTrak1/robot-sim folder and launch the assignment file as follows:
 
 ```
->> cd robot/sim
->> python2 ./run.py ./assigment.py
+>> cd researchTrack1/robot-sim
+>> python2 ./run.py ./assignment.py
 
 ```
+After the program driving the robot finishes, press CTRL+c to terminate also the file launcher run.py.
 
 # Introduction
 The robot is positioned in an area with golden and silver token. The goal is to bring each silver token close to a different golden token, so that each silver token will be coupled with a golden token.
